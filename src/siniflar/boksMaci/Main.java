@@ -1,0 +1,12 @@
+package siniflar.boksMaci;
+
+public class Main {
+    public static void main(String[] args) {
+        Fighter f1 = new Fighter("ali",10,50,100,30);
+        Fighter f2 = new Fighter("ahmet",20,40,85,40);
+
+        Match match= new Match(f1,f2,85,100);
+        match.run();
+    }
+
+}
