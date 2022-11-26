@@ -4,7 +4,7 @@ public class Fibonacci {
     public static void main(String[] args) {
         int n;
         Scanner sc=new Scanner(System.in);
-        System.out.print("Kaç elemanlı Fibonacci serisi istersiniz : ");
+        System.out.print("Kaç elemanlı FibonacciNumbers serisi istersiniz : ");
         n= sc.nextInt();
         int a=0,b=1,c;
         for(int i=2;i<n;i++)
